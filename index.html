@@ -3,38 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Glam-Appetit · Salão Boutique em Belo Horizonte</title>
-<meta name="description" content="Salão boutique em Belo Horizonte e referência em ruivos sem descoloração, mechas e balayage. Cabelo, maquiagem, unhas e sobrancelhas no comando de Hugo Antunnes.">
+<title>Glam-Appetit · Coloração autoral em Belo Horizonte</title>
+<meta name="description" content="Salão boutique em Belo Horizonte. Ruivo intenso sem descolorir o fio — e cor, cortes, unhas, make e sobrancelhas no mesmo endereço. Assinatura de Hugo Antunnes.">
 <meta name="theme-color" content="#2A0A17">
-<meta name="author" content="Glam-Appetit">
+<meta name="author" content="Glam-Appetit · Hugo Antunnes">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Glam-Appetit">
-<meta property="og:title" content="Glam-Appetit · Salão Boutique">
-<meta property="og:description" content="Referência em ruivos sem descoloração em BH. Cabelo, make, unhas e sobrancelhas com assinatura de Hugo Antunnes.">
+<meta property="og:title" content="Glam-Appetit · Coloração autoral em BH">
+<meta property="og:description" content="Ruivo intenso, sem descolorir o fio. Cor, cortes, unhas, make e sobrancelhas com assinatura de Hugo Antunnes.">
 <meta property="og:image" content="assets/img/og-glam-appetit.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Glam-Appetit · Salão Boutique — ruivo acobreado de revista">
+<meta property="og:image:alt" content="Glam-Appetit — ruivo cobreado no salão">
 <meta property="og:locale" content="pt_BR">
-<!-- NOTA: para o preview rico no WhatsApp/Facebook, og:image e og:url precisam de URL ABSOLUTA.
-     Ao publicar, prefixe com o domínio final, ex.: https://seudominio.com.br/assets/img/og-glam-appetit.jpg -->
+<!-- NOTA: para preview rico no WhatsApp/Facebook, og:image e og:url precisam de URL ABSOLUTA ao publicar. -->
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Glam-Appetit · Salão Boutique">
-<meta name="twitter:description" content="Referência em ruivos sem descoloração em BH. Cabelo, make, unhas e sobrancelhas com assinatura de Hugo Antunnes.">
+<meta name="twitter:title" content="Glam-Appetit · Coloração autoral em BH">
+<meta name="twitter:description" content="Ruivo intenso, sem descolorir o fio. Assinatura de Hugo Antunnes.">
 <meta name="twitter:image" content="assets/img/og-glam-appetit.jpg">
 
-<!-- Favicon (gema da marca) -->
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-
-<!-- Fontes: Libre Bodoni (Didone alto-contraste, fiel à Bauer Bodoni da logo) + Jost (geométrica) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+<link rel="preload" href="assets/fonts/BauerBodoniBT-BoldCondensed.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Candara.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
 
 <!-- Dados estruturados -->
@@ -43,8 +37,8 @@
   "@context":"https://schema.org",
   "@type":"HairSalon",
   "name":"Glam-Appetit · Salão Boutique",
-  "description":"Salão boutique em Belo Horizonte. Referência em ruivos sem descoloração, mechas, balayage, maquiagem, unhas e sobrancelhas.",
-  "image":"assets/img/espaco-salao.png",
+  "description":"Salão boutique em Belo Horizonte. Referência em ruivo sem descoloração — cor intensa com o fio preservado — além de mechas, balayage, cortes, maquiagem, unhas e sobrancelhas.",
+  "image":"assets/img/r-espaco.jpg",
   "priceRange":"$$$",
   "founder":{"@type":"Person","name":"Hugo Antunnes"},
   "address":{"@type":"PostalAddress","addressLocality":"Belo Horizonte","addressRegion":"MG","addressCountry":"BR"},
@@ -55,32 +49,51 @@
 </head>
 <body>
 
-<!-- ===== Símbolo da marca (gema/lábios) — fiel à logo: coral em cima, framboesa embaixo ===== -->
+<!-- ===== Símbolo da marca (gema/lábios) — fiel à logo: lábios CORAL em cima, corpo FRAMBOESA embaixo ===== -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <symbol id="gem" viewBox="0 0 120 132">
-    <!-- corpo: diamante framboesa -->
-    <path d="M8,46 L37,31 L60,44 L83,31 L112,46 L60,122 Z" fill="#951B4C"/>
-    <!-- faixa superior: lábios coral (com a curva do arco do cupido) -->
-    <path d="M8,46 L37,31 L60,44 L83,31 L112,46 L95.6,70 L24.4,70 Z" fill="#F0635C"/>
+    <path d="M8,46 L37,31 L60,44 L83,31 L112,46 L60,122 Z" fill="#951243"/>
+    <path d="M8,46 L37,31 L60,44 L83,31 L112,46 L95.6,70 L24.4,70 Z" fill="#EB5C5A"/>
   </symbol>
 </svg>
+
+<!-- ===== Grão de filme global (acabamento editorial) ===== -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== Cursor customizado (desligado no toque via JS/CSS) ===== -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span></div>
+
+<!-- ===== O FIO-JOIA: assinatura que se desenha ao rolar (cor intensa, fio preservado) ===== -->
+<svg class="fio" id="fio" viewBox="0 0 40 1000" preserveAspectRatio="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="fioGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EB5C5A"/>
+      <stop offset="0.5" stop-color="#C2853F"/>
+      <stop offset="1" stop-color="#F2C24C"/>
+    </linearGradient>
+  </defs>
+  <path id="fioPath" d="M20,0 C6,90 34,150 20,240 C6,330 34,400 20,490 C6,580 34,650 20,740 C6,830 34,900 20,1000"
+        fill="none" stroke="url(#fioGrad)" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
 <!-- ===== NAV ===== -->
 <header class="nav" id="nav">
   <div class="nav__inner">
-    <a class="nav__brand" href="#top" aria-label="Glam-Appetit, início">
+    <a class="nav__brand" href="#topo" aria-label="Glam-Appetit, início" data-cursor="brand">
       <svg class="gem" viewBox="0 0 120 132" aria-hidden="true"><use href="#gem"/></svg>
       <span class="name">Glam-Appetit</span>
     </a>
     <nav class="nav__links" aria-label="Navegação principal">
-      <a href="#casa">A Casa</a>
-      <a href="#cores">Cores</a>
+      <a href="#assinatura">Assinatura</a>
       <a href="#servicos">Serviços</a>
-      <a href="#galeria">Galeria</a>
-      <a href="#visita">Visita</a>
+      <a href="#espaco">O espaço</a>
+      <a href="#galeria">Portfólio</a>
+      <a href="#agendar">Contato</a>
     </nav>
-    <a class="nav__cta" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener">Agendar</a>
-    <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+    <a class="nav__cta magnet" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener" data-cursor="cta">Agendar</a>
+    <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="drawer">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -88,407 +101,390 @@
 
 <!-- ===== DRAWER MOBILE ===== -->
 <nav class="drawer" id="drawer" aria-label="Menu">
-  <a href="#casa">A Casa</a>
-  <a href="#cores">Cores</a>
+  <a href="#assinatura">Assinatura</a>
   <a href="#servicos">Serviços</a>
-  <a href="#galeria">Galeria</a>
-  <a href="#visita">Visita</a>
-  <a href="https://wa.me/55XXXXXXXXXXX" target="_blank" rel="noopener">Agendar</a>
+  <a href="#espaco">O espaço</a>
+  <a href="#galeria">Portfólio</a>
+  <a href="#agendar">Contato</a>
+  <a class="drawer__cta" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener">Agendar no WhatsApp</a>
   <div class="drawer__foot">@glam_byhugoantunnes · Belo Horizonte</div>
 </nav>
 
-<span id="top"></span>
+<span id="topo"></span>
+<main id="conteudo">
 
-<!-- ===== HERO — editorial de moda: escala disruptiva + texto atrás do cabelo ===== -->
+<!-- ===== HERO — o ruivo-assinatura (foto real, plum drenched) ===== -->
 <section class="hero" id="hero">
   <picture class="hero__bg">
-    <source type="image/webp" srcset="assets/img/hero-ruivo-768.webp 768w, assets/img/hero-ruivo-1280.webp 1280w, assets/img/hero-ruivo-1760.webp 1760w, assets/img/hero-ruivo-2752.webp 2752w" sizes="100vw">
-    <img src="assets/img/hero-ruivo.jpg" alt="Ruivo acobreado de revista, assinatura do Glam-Appetit" fetchpriority="high" width="2752" height="1536">
+    <source type="image/webp" srcset="assets/img/r-ruivo-480.webp 480w, assets/img/r-ruivo-720.webp 720w, assets/img/r-ruivo-1080.webp 1080w, assets/img/r-ruivo-1216.webp 1216w" sizes="100vw">
+    <img src="assets/img/r-ruivo.jpg" alt="Cliente de costas com ruivo cobreado intenso e ondulado, dentro do salão Glam-Appetit em Belo Horizonte" fetchpriority="high" width="1216" height="2160">
   </picture>
   <div class="hero__scrim" aria-hidden="true"></div>
-  <div class="hero__grain" aria-hidden="true"></div>
-
-  <!-- rótulo de borda (editorial) -->
-  <span class="hero__edge hero__edge--l" aria-hidden="true">@glam_byhugoantunnes</span>
 
   <div class="hero__inner">
     <div class="container">
-      <p class="hero__kicker reveal-hero"><span class="ln"></span>Salão Boutique · Belo Horizonte</p>
-
-      <h1 class="hero__title">
-        <span class="hl"><span class="hl__in">Sua beleza</span></span>
-        <span class="hl hl--giant"><em class="hl__in">merece</em></span>
-        <span class="hl"><span class="hl__in">autoria<i class="dot">.</i></span></span>
-      </h1>
-
-      <div class="hero__foot reveal-hero">
-        <div class="hero__index">
-          <span class="n">Nº 01</span>
-          <span class="t">O ruivo sem descoloração</span>
-        </div>
-        <div class="hero__cta">
-          <a class="btn btn--light" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener">
-            Agendar no WhatsApp
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-          <a class="hero__textlink" href="#cores">Ver os trabalhos <span aria-hidden="true">→</span></a>
-        </div>
+      <p class="hero__kicker shine" data-reveal>Belo Horizonte · Coloração autoral</p>
+      <h1 class="hero__title" data-split>Ruivo intenso, sem descolorir o fio.</h1>
+      <p class="hero__sub" data-reveal>Cor que impressiona e cabelo que continua saudável. Cortes, unhas e make no mesmo endereço.</p>
+      <div class="hero__actions" data-reveal>
+        <a class="btn btn--solid magnet" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener" data-cursor="cta">
+          Agendar no WhatsApp
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--textlight" href="https://instagram.com/glam_byhugoantunnes" target="_blank" rel="noopener">Ver no Instagram</a>
       </div>
+      <p class="hero__micro" data-reveal>Resposta pelo WhatsApp, sem compromisso · Terça a sábado, a partir das 10h.</p>
     </div>
   </div>
 
-  <a href="#casa" class="hero__scroll reveal-hero" aria-label="Rolar para baixo">
-    <span>Role</span><span class="line"></span>
-  </a>
+  <div class="hero__proofs" aria-hidden="false" data-reveal>
+    <div class="hproof"><b>+22 mil</b><span>@glam_byhugoantunnes</span></div>
+    <div class="hproof"><b>Kérastase</b><span>do primeiro ao último fio</span></div>
+    <div class="hproof"><b>Belo Horizonte</b><span>salão com hora marcada</span></div>
+  </div>
+
+  <a href="#assinatura" class="hero__scroll" aria-label="Rolar para baixo"><span>Role</span><i></i></a>
 </section>
 
-
-
-<!-- ===== A CASA / MANIFESTO ===== -->
-<section class="section" id="casa">
-  <div class="container manifesto">
-    <p class="eyebrow reveal">A casa</p>
-    <h2 class="manifesto__big reveal" data-d="1">Tem salão que entrega corte. A gente entrega <em>a sua melhor versão</em> e a vontade de voltar.</h2>
-    <div class="manifesto__cols">
-      <p class="reveal" data-d="1">O Glam-Appetit nasceu de uma ideia teimosa: dá pra fazer beleza de alto nível sem maltratar quem senta na cadeira. Cor intensa sem descoloração agressiva, brilho de revista com o fio preservado, e um atendimento que trata cada cliente pelo nome.</p>
-      <p class="reveal" data-d="2">Aqui você não precisa de cinco endereços pra se sentir você. Cabelo, maquiagem, unha e sobrancelha dividem o mesmo teto, a mesma estética e o mesmo padrão. É por isso que viramos ponto de referência em Belo Horizonte.</p>
-    </div>
-    <div class="stat-row">
-      <div class="stat reveal" data-d="1">
-        <span class="stat__num" data-count="22" data-suffix=" mil">22 mil</span>
-        <span class="stat__label">acompanhando no Instagram</span>
-      </div>
-      <div class="stat reveal" data-d="2">
-        <span class="stat__num">Ruivos</span>
-        <span class="stat__label">referência em BH, sem descoloração</span>
-      </div>
-      <div class="stat reveal" data-d="3">
-        <span class="stat__num">Ter–Sáb</span>
-        <span class="stat__label">portas abertas a partir das 10h</span>
-      </div>
-    </div>
+<!-- ===== FAIXA DE PROVA (marquee raspberry) ===== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track" id="marqueeTrack">
+    <span>Ruivo sem descoloração</span><i class="dot"></i>
+    <span>Kérastase</span><i class="dot"></i>
+    <span>+22 mil no Instagram</span><i class="dot"></i>
+    <span>Belo Horizonte</span><i class="dot"></i>
+    <span>Cor · Cortes · Unhas · Make · Sobrancelhas</span><i class="dot"></i>
   </div>
-</section>
+</div>
 
-<!-- ===== SIGNATURE — RUIVOS ===== -->
-<section class="section signature" style="padding-block:0" aria-labelledby="ruivos-h">
-  <div class="signature__media">
-    <span class="signature__badge"><span class="dot"></span> Marca registrada</span>
-    <picture><source type="image/webp" srcset="assets/img/cabelo-ruivo-360.webp 360w, assets/img/cabelo-ruivo-540.webp 540w, assets/img/cabelo-ruivo-640.webp 640w" sizes="(max-width:980px) 100vw, 50vw"><img src="assets/img/cabelo-ruivo.png" alt="Trança em cabelo ruivo acobreado feito no Glam-Appetit" loading="lazy" width="640" height="1138"></picture>
-  </div>
-  <div class="signature__body">
-    <p class="eyebrow eyebrow--light">O nosso ruivo</p>
-    <h2 id="ruivos-h">O ruivo que a cidade <em>veio buscar aqui.</em></h2>
-    <p>Cor que vira ímã de olhar, brilho de capa de revista e — o detalhe que muda tudo, fio preservado. No Glam-Appetit, o ruivo é construído tom sobre tom, sem aquela descoloração que arranca a saúde do cabelo. A cor impressiona; mas é o cabelo continuar bonito depois que faz a cliente voltar.</p>
-    <div class="signature__points">
-      <span class="chip">Sem descoloração agressiva</span>
-      <span class="chip">Cobre | acaju | terracota</span>
-      <span class="chip">Manutenção orientada</span>
+<!-- ===== ASSINATURA — o ruivo sem descoloração (o mecanismo) ===== -->
+<section class="section sig" id="assinatura">
+  <span class="sig__num" aria-hidden="true">01</span>
+  <div class="container sig__grid">
+    <div class="sig__media" data-reveal="wipe">
+      <picture>
+        <source type="image/webp" srcset="assets/img/r-mulher-420.webp 420w, assets/img/r-mulher-640.webp 640w" sizes="(max-width:900px) 100vw, 42vw">
+        <img src="assets/img/r-mulher.jpg" alt="Cliente de frente com morena iluminada e maquiagem, no salão" loading="lazy" width="640" height="853" data-parallax>
+      </picture>
     </div>
-    <div>
-      <a class="btn btn--outline-light" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20fazer%20um%20ruivo%20no%20Glam-Appetit." target="_blank" rel="noopener">
-        Quero meu ruivo
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
+    <div class="sig__text">
+      <p class="eyebrow" data-reveal>A assinatura da casa</p>
+      <h2 class="h-display" data-reveal>O ruivo que <em>não pede</em> descoloração.</h2>
+      <p class="lead" data-reveal>Nosso jeito de colorir: pigmento de joia sobre o fio preservado.</p>
+      <p class="prose" data-reveal>A maioria dos ruivos marcantes começa clareando o cabelo até o limite — e é aí que o fio sofre. Aqui é o contrário. A cor entra intensa sem passar pela descoloração, então o cabelo sai colorido e inteiro. É esse trabalho que virou a nossa marca, o mesmo que você vê no feed.</p>
+      <ol class="steps" data-reveal>
+        <li><span class="steps__n">i</span><div><b>Leitura do fio</b><p>Antes da cor, a gente avalia o estado do seu cabelo. Nada de fórmula pronta.</p></div></li>
+        <li><span class="steps__n">ii</span><div><b>Cor sem descoloração</b><p>Pigmento intenso sobre o fio preservado, sem clarear além da conta.</p></div></li>
+        <li><span class="steps__n">iii</span><div><b>Selagem Kérastase</b><p>Nutrição e brilho no fim, para a cor durar mais tempo.</p></div></li>
+      </ol>
+      <a class="link-cta" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20fazer%20um%20ruivo%20sem%20descolora%C3%A7%C3%A3o%20no%20Glam-Appetit." target="_blank" rel="noopener" data-reveal>Quero meu ruivo <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
 
-<!-- ===== CARTA DE CORES (assinatura interativa) ===== -->
-<section class="section section--wine" id="cores">
+<!-- ===== SERVIÇOS + CARTA DE CORES — o cofre de joias (raspberry drenched) ===== -->
+<section class="section cofre" id="servicos">
   <div class="container">
-    <div class="colors__head">
-      <div>
-        <p class="eyebrow eyebrow--light reveal">A carta de cores</p>
-        <h2 class="reveal" data-d="1">Toda cor tem hora marcada.</h2>
-      </div>
-      <p class="reveal" data-d="2">Somos coloristas antes de tudo. Passe pelos tons que mais saem da nossa cadeira, cada um pensado pra pele, pro fio e pra rotina de quem usa.</p>
-    </div>
+    <header class="cofre__head">
+      <p class="eyebrow eyebrow--light" data-reveal>O que fazemos</p>
+      <h2 class="h-display h-display--light" data-reveal>Da raiz à ponta das unhas, <em>tudo aqui.</em></h2>
+      <p class="lead lead--light" data-reveal>Você marca a cor e resolve o resto na mesma cadeira. Homem, cabelo cacheado e cor autoral têm lugar aqui.</p>
+    </header>
 
-    <div class="colorcard" id="colorcard" role="tablist" aria-label="Tonalidades autorais">
-      <article class="colorcard__panel is-active" data-color tabindex="0" role="tab" aria-selected="true">
-        <span class="colorcard__index">01</span>
-        <picture><source type="image/webp" srcset="assets/img/cabelo-ruivo-360.webp 360w, assets/img/cabelo-ruivo-540.webp 540w, assets/img/cabelo-ruivo-640.webp 640w" sizes="(max-width:760px) 100vw, 60vw"><img src="assets/img/cabelo-ruivo.png" alt="Cabelo ruivo acobreado" loading="lazy" width="640" height="1138"></picture>
-        <div class="colorcard__tag">
-          <span class="colorcard__swatch" style="background:#B5562A"></span>
-          <h3 class="colorcard__name">Ruivo Acobreado</h3>
-          <p class="colorcard__desc">Vermelho que vira ímã de olhar, construído tom sobre tom, sem a descoloração que castiga o fio.</p>
-        </div>
-      </article>
-      <article class="colorcard__panel" data-color tabindex="0" role="tab" aria-selected="false">
-        <span class="colorcard__index">02</span>
-        <picture><source type="image/webp" srcset="assets/img/cabelo-morena-360.webp 360w, assets/img/cabelo-morena-540.webp 540w, assets/img/cabelo-morena-640.webp 640w" sizes="(max-width:760px) 100vw, 60vw"><img src="assets/img/cabelo-morena.png" alt="Cabelo morena iluminada" loading="lazy" width="640" height="1138"></picture>
-        <div class="colorcard__tag">
-          <span class="colorcard__swatch" style="background:#8A5A33"></span>
-          <h3 class="colorcard__name">Morena Iluminada</h3>
-          <p class="colorcard__desc">O moreno que ganha luz no lugar certo. Natural de longe, trabalhado de perto.</p>
-        </div>
-      </article>
-      <article class="colorcard__panel" data-color tabindex="0" role="tab" aria-selected="false">
-        <span class="colorcard__index">03</span>
-        <picture><source type="image/webp" srcset="assets/img/cabelo-loiro-360.webp 360w, assets/img/cabelo-loiro-540.webp 540w, assets/img/cabelo-loiro-640.webp 640w" sizes="(max-width:760px) 100vw, 60vw"><img src="assets/img/cabelo-loiro.png" alt="Cabelo loiro pérola" loading="lazy" width="640" height="1138"></picture>
-        <div class="colorcard__tag">
-          <span class="colorcard__swatch" style="background:#D9C39B"></span>
-          <h3 class="colorcard__name">Loiro Pérola</h3>
-          <p class="colorcard__desc">Loiro frio e limpo, sem fundo amarelado. O acabamento que parece capa de revista.</p>
-        </div>
-      </article>
-      <article class="colorcard__panel" data-color tabindex="0" role="tab" aria-selected="false">
-        <span class="colorcard__index">04</span>
-        <picture><source type="image/webp" srcset="assets/img/cabelo-mel-360.webp 360w, assets/img/cabelo-mel-540.webp 540w, assets/img/cabelo-mel-640.webp 640w" sizes="(max-width:760px) 100vw, 60vw"><img src="assets/img/cabelo-mel.png" alt="Cabelo mel dourado" loading="lazy" width="640" height="1138"></picture>
-        <div class="colorcard__tag">
-          <span class="colorcard__swatch" style="background:#C79A57"></span>
-          <h3 class="colorcard__name">Mel Dourado</h3>
-          <p class="colorcard__desc">Caramelo quente que valoriza a pele brasileira e cai bem o ano inteiro.</p>
-        </div>
-      </article>
-      <article class="colorcard__panel" data-color tabindex="0" role="tab" aria-selected="false">
-        <span class="colorcard__index">05</span>
-        <picture><source type="image/webp" srcset="assets/img/cabelo-camadas-360.webp 360w, assets/img/cabelo-camadas-540.webp 540w, assets/img/cabelo-camadas-640.webp 640w" sizes="(max-width:760px) 100vw, 60vw"><img src="assets/img/cabelo-camadas.png" alt="Cabelo castanho com camadas em movimento" loading="lazy" width="640" height="1138"></picture>
-        <div class="colorcard__tag">
-          <span class="colorcard__swatch" style="background:#5A3A2A"></span>
-          <h3 class="colorcard__name">Chocolate Glossy</h3>
-          <p class="colorcard__desc">Castanho profundo com brilho de espelho. Movimento nas camadas, saúde no fio.</p>
-        </div>
-      </article>
+    <ul class="flowmenu" id="flowmenu">
+      <li class="flowmenu__item" data-img="assets/img/cabelo-ruivo-540.webp">
+        <a href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20falar%20sobre%20coloração%20no%20Glam-Appetit." target="_blank" rel="noopener">
+          <span class="flowmenu__name">Coloração autoral</span>
+          <span class="flowmenu__desc">Ruivo, mechas, balayage, morena iluminada, loiro pérola.</span>
+        </a>
+        <span class="flowmenu__marquee" aria-hidden="true"></span>
+      </li>
+      <li class="flowmenu__item" data-img="assets/img/r-corte-720.webp">
+        <a href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20corte%20no%20Glam-Appetit." target="_blank" rel="noopener">
+          <span class="flowmenu__name">Cortes</span>
+          <span class="flowmenu__desc">Femininos, masculinos e cabelos cacheados.</span>
+        </a>
+        <span class="flowmenu__marquee" aria-hidden="true"></span>
+      </li>
+      <li class="flowmenu__item" data-img="assets/img/r-unhas-coral-720.webp">
+        <a href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20as%20unhas%20no%20Glam-Appetit." target="_blank" rel="noopener">
+          <span class="flowmenu__name">Unhas</span>
+          <span class="flowmenu__desc">Do clássico à francesinha, com acabamento de joia.</span>
+        </a>
+        <span class="flowmenu__marquee" aria-hidden="true"></span>
+      </li>
+      <li class="flowmenu__item" data-img="assets/img/make-540.webp">
+        <a href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20uma%20maquiagem%20no%20Glam-Appetit." target="_blank" rel="noopener">
+          <span class="flowmenu__name">Maquiagem</span>
+          <span class="flowmenu__desc">Para o dia a dia ou para o dia que não se repete.</span>
+        </a>
+        <span class="flowmenu__marquee" aria-hidden="true"></span>
+      </li>
+      <li class="flowmenu__item" data-img="assets/img/sobrancelha-360.webp">
+        <a href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20o%20design%20de%20sobrancelhas%20no%20Glam-Appetit." target="_blank" rel="noopener">
+          <span class="flowmenu__name">Sobrancelhas</span>
+          <span class="flowmenu__desc">Desenho que emoldura o rosto, sem exagero.</span>
+        </a>
+        <span class="flowmenu__marquee" aria-hidden="true"></span>
+      </li>
+    </ul>
+
+    <!-- Carta de cores: passe o cursor pra iluminar o tom -->
+    <div class="cartas">
+      <p class="cartas__label" data-reveal>A carta de cores da casa — <em>passe o dedo pra ver o seu tom.</em></p>
+      <div class="chroma" id="chroma">
+        <article class="chroma__cell" style="--sw:#B5562A"><img src="assets/img/cabelo-ruivo-360.webp" alt="Amostra de cabelo ruivo acobreado" loading="lazy" width="360" height="640"><span class="chroma__name">Cobre Veneziano</span></article>
+        <article class="chroma__cell" style="--sw:#8A5A33"><img src="assets/img/cabelo-morena-360.webp" alt="Amostra de morena iluminada" loading="lazy" width="360" height="640"><span class="chroma__name">Morena Iluminada</span></article>
+        <article class="chroma__cell" style="--sw:#D9C39B"><img src="assets/img/cabelo-loiro-360.webp" alt="Amostra de loiro pérola" loading="lazy" width="360" height="640"><span class="chroma__name">Loiro Pérola</span></article>
+        <article class="chroma__cell" style="--sw:#C79A57"><img src="assets/img/cabelo-mel-360.webp" alt="Amostra de mel dourado" loading="lazy" width="360" height="640"><span class="chroma__name">Mel Dourado</span></article>
+        <article class="chroma__cell" style="--sw:#5A3A2A"><img src="assets/img/cabelo-camadas-360.webp" alt="Amostra de castanho chocolate" loading="lazy" width="360" height="640"><span class="chroma__name">Chocolate Glossy</span></article>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SERVIÇOS ===== -->
-<section class="section section--cream2" id="servicos">
-  <div class="container">
-    <div class="colors__head">
-      <div>
-        <p class="eyebrow reveal">O que fazemos</p>
-        <h2 class="reveal" data-d="1" style="font-family:var(--display);font-weight:500;font-size:clamp(2rem,4.4vw,3.4rem);line-height:1.04;max-width:16ch">Um endereço, a sua beleza inteira.</h2>
-      </div>
-      <p class="reveal" data-d="2">Quatro especialidades que falam a mesma língua. Passe o mouse pra ver o que entra em cada uma.</p>
+<!-- ===== CUIDADO / KÉRASTASE (padrão de cuidado) ===== -->
+<section class="section cuidado" id="cuidado">
+  <span class="sig__num" aria-hidden="true">02</span>
+  <div class="container cuidado__grid">
+    <div class="cuidado__text">
+      <p class="eyebrow" data-reveal>Padrão de cuidado</p>
+      <h2 class="h-display" data-reveal>No seu cabelo, <em>só o que usaríamos no nosso.</em></h2>
+      <p class="lead" data-reveal>Trabalhamos com Kérastase do começo ao fim do atendimento.</p>
+      <p class="prose" data-reveal>Cor bonita sem cuidado dura pouco. Por isso a linha que passa no seu fio é Kérastase, da lavagem à finalização. É o que sustenta o brilho depois que você sai daqui.</p>
+      <a class="link-cta" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener" data-reveal>Agendar no WhatsApp <span aria-hidden="true">→</span></a>
     </div>
+    <figure class="cuidado__media" data-reveal="wipe">
+      <div class="facet">
+        <picture>
+          <source type="image/webp" srcset="assets/img/r-kerastase-480.webp 480w, assets/img/r-kerastase-720.webp 720w, assets/img/r-kerastase-1080.webp 1080w" sizes="(max-width:900px) 100vw, 46vw">
+          <img src="assets/img/r-kerastase.jpg" alt="Ampolas Kérastase em tons de joia usadas nos atendimentos do salão" loading="lazy" width="1320" height="1320" data-parallax>
+        </picture>
+      </div>
+      <figcaption>A linha Kérastase que fecha cada atendimento.</figcaption>
+    </figure>
+  </div>
+</section>
 
-    <div class="services__grid">
-      <article class="svc reveal" data-d="1">
-        <picture><source type="image/webp" srcset="assets/img/cabelo-loiro-ombre-360.webp 360w, assets/img/cabelo-loiro-ombre-540.webp 540w, assets/img/cabelo-loiro-ombre-640.webp 640w" sizes="(max-width:760px) 100vw, 50vw"><img src="assets/img/cabelo-loiro-ombre.png" alt="Mechas e balayage em cabelo loiro" loading="lazy" width="640" height="1138"></picture>
-        <div class="svc__body">
-          <span class="svc__num">01 — Cabelo &amp; Cor</span>
-          <h3 class="svc__title">Cabelo &amp; Cor</h3>
-          <p class="svc__desc">Corte, mechas, balayage, morena iluminada e o nosso ruivo-assinatura. Mais tratamento e reconstrução pra devolver vida ao fio.</p>
-        </div>
-      </article>
-      <article class="svc reveal" data-d="2">
-        <picture><source type="image/webp" srcset="assets/img/make-360.webp 360w, assets/img/make-540.webp 540w, assets/img/make-640.webp 640w" sizes="(max-width:760px) 100vw, 50vw"><img src="assets/img/make.png" alt="Maquiagem profissional feita no salão" loading="lazy" width="640" height="1138"></picture>
-        <div class="svc__body">
-          <span class="svc__num">02 — Maquiagem</span>
-          <h3 class="svc__title">Maquiagem</h3>
-          <p class="svc__desc">Make de dia, de festa e de noiva, com acabamento que segura a noite inteira e fotografa lindo.</p>
-        </div>
-      </article>
-      <article class="svc reveal" data-d="1">
-        <picture><source type="image/webp" srcset="assets/img/unhas-nude-360.webp 360w, assets/img/unhas-nude-540.webp 540w, assets/img/unhas-nude-768.webp 768w, assets/img/unhas-nude-1080.webp 1080w" sizes="(max-width:760px) 100vw, 50vw"><img src="assets/img/unhas-nude.png" alt="Unhas em alongamento nude" loading="lazy" width="1080" height="1080"></picture>
-        <div class="svc__body">
-          <span class="svc__num">03 — Unhas</span>
-          <h3 class="svc__title">Unhas</h3>
-          <p class="svc__desc">Alongamento, francesinha e nail art. Do nude clássico ao preto statement, mão impecável.</p>
-        </div>
-      </article>
-      <article class="svc reveal" data-d="2">
-        <picture><source type="image/webp" srcset="assets/img/sobrancelha-360.webp 360w, assets/img/sobrancelha-376.webp 376w" sizes="(max-width:760px) 100vw, 50vw"><img src="assets/img/sobrancelha.png" alt="Design de sobrancelhas" loading="lazy" width="376" height="187"></picture>
-        <div class="svc__body">
-          <span class="svc__num">04 — Sobrancelhas</span>
-          <h3 class="svc__title">Sobrancelhas</h3>
-          <p class="svc__desc">Design que lê o seu rosto. Fios alinhados, formato simétrico e aquele olhar de descanso.</p>
-        </div>
-      </article>
+<!-- ===== UNHAS — a joalheria das mãos (o jade entra aqui) ===== -->
+<section class="section unhas" id="unhas">
+  <div class="container unhas__grid">
+    <div class="unhas__text">
+      <p class="eyebrow eyebrow--teal" data-reveal>Mãos de joia</p>
+      <h2 class="h-display" data-reveal>Unhas com <em>acabamento de joalheria.</em></h2>
+      <p class="prose" data-reveal>Do coral que rouba a cena à francesinha delicada de todo dia. Formato, cor e brilho pensados fio a fio — do jeito que a gente cuida do cabelo.</p>
+      <a class="link-cta link-cta--teal" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20as%20unhas%20no%20Glam-Appetit." target="_blank" rel="noopener" data-reveal>Agendar unhas <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="unhas__pair">
+      <figure class="unhas__a facet-sm" data-reveal>
+        <picture>
+          <source type="image/webp" srcset="assets/img/r-unhas-coral-420.webp 420w, assets/img/r-unhas-coral-720.webp 720w" sizes="(max-width:900px) 60vw, 30vw">
+          <img src="assets/img/r-unhas-coral.jpg" alt="Unhas em formato amêndoa na cor coral com anéis dourados" loading="lazy" width="1011" height="1011" data-parallax>
+        </picture>
+      </figure>
+      <figure class="unhas__b arc" data-reveal>
+        <picture>
+          <source type="image/webp" srcset="assets/img/r-unhas-french-420.webp 420w, assets/img/r-unhas-french-720.webp 720w" sizes="(max-width:900px) 50vw, 24vw">
+          <img src="assets/img/r-unhas-french.jpg" alt="Francesinha delicada com detalhe em verde, mãos cruzadas" loading="lazy" width="818" height="1448" data-parallax>
+        </picture>
+      </figure>
     </div>
   </div>
 </section>
 
-<!-- ===== GALERIA ===== -->
-<section class="section" id="galeria">
-  <div class="container">
-    <div class="gallery__head reveal">
-      <p class="eyebrow">Portfólio</p>
-      <h2>Resultado é a nossa melhor propaganda.</h2>
+<!-- ===== O ESPAÇO — o salão real ===== -->
+<section class="espaco" id="espaco" aria-labelledby="espaco-h">
+  <figure class="espaco__media">
+    <picture>
+      <source type="image/webp" srcset="assets/img/r-espaco-768.webp 768w, assets/img/r-espaco-1280.webp 1280w, assets/img/r-espaco-1760.webp 1760w, assets/img/r-espaco-2268.webp 2268w" sizes="100vw">
+      <img src="assets/img/r-espaco.jpg" alt="Interior do salão Glam-Appetit visto de cima, com estações de cabelo, área de unhas e vitrine" loading="lazy" width="2268" height="4032" data-parallax>
+    </picture>
+  </figure>
+  <div class="espaco__panel">
+    <div class="container">
+      <div class="espaco__card" data-reveal>
+        <h2 id="espaco-h" class="h-display h-display--light">O salão que você conhece do feed, <em>por dentro.</em></h2>
+        <p class="prose prose--light">Estações de cabelo, área de unhas e uma vitrine que dá gosto de passar. Um espaço pensado para você sentar, relaxar e sair diferente do jeito que chegou.</p>
+        <p class="espaco__cap">Belo Horizonte · Terça a sábado, a partir das 10h</p>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="filters reveal" data-d="1" role="tablist" aria-label="Filtrar galeria">
-      <button class="filter is-active" data-filter="all">Tudo</button>
-      <button class="filter" data-filter="cabelo">Cabelo</button>
-      <button class="filter" data-filter="beleza">Beleza</button>
-      <button class="filter" data-filter="unhas">Unhas</button>
+<!-- ===== GALERIA / PORTFÓLIO ===== -->
+<section class="section galeria" id="galeria">
+  <div class="container">
+    <header class="galeria__head">
+      <h2 class="h-display" data-reveal>Cada cabeça, <em>um projeto só dela.</em></h2>
+      <p class="lead" data-reveal>Nenhuma cor sai igual à outra porque nenhum cabelo é igual ao outro. Passe o olho — é provável que o que você procura já esteja aqui.</p>
+    </header>
+
+    <div class="filters" role="group" aria-label="Filtrar portfólio">
+      <button class="filter is-active" data-filter="all" aria-pressed="true">Tudo</button>
+      <button class="filter" data-filter="cabelo" aria-pressed="false">Cabelo</button>
+      <button class="filter" data-filter="cortes" aria-pressed="false">Cortes</button>
+      <button class="filter" data-filter="unhas" aria-pressed="false">Unhas</button>
+      <button class="filter" data-filter="beleza" aria-pressed="false">Beleza</button>
     </div>
 
     <div class="grid" id="grid">
-      <figure class="grid__item reveal" data-cat="cabelo"><picture><source type="image/webp" srcset="assets/img/cabelo-ruivo-360.webp 360w, assets/img/cabelo-ruivo-540.webp 540w, assets/img/cabelo-ruivo-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-ruivo.png" alt="Ruivo acobreado" loading="lazy" data-full="assets/img/cabelo-ruivo-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Ruivo acobreado</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="unhas"><picture><source type="image/webp" srcset="assets/img/unhas-nude-360.webp 360w, assets/img/unhas-nude-540.webp 540w, assets/img/unhas-nude-768.webp 768w, assets/img/unhas-nude-1080.webp 1080w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/unhas-nude.png" alt="Nude alongado" loading="lazy" data-full="assets/img/unhas-nude-1080.webp" width="1080" height="1080"></picture><figcaption class="grid__cap">Nude alongado</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="cabelo"><picture><source type="image/webp" srcset="assets/img/cabelo-loiro-ombre-360.webp 360w, assets/img/cabelo-loiro-ombre-540.webp 540w, assets/img/cabelo-loiro-ombre-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-loiro-ombre.png" alt="Ombré iluminado" loading="lazy" data-full="assets/img/cabelo-loiro-ombre-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Ombré iluminado</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="beleza"><picture><source type="image/webp" srcset="assets/img/make-360.webp 360w, assets/img/make-540.webp 540w, assets/img/make-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/make.png" alt="Maquiagem de festa" loading="lazy" data-full="assets/img/make-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Make de festa</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="cabelo"><picture><source type="image/webp" srcset="assets/img/cabelo-morena-360.webp 360w, assets/img/cabelo-morena-540.webp 540w, assets/img/cabelo-morena-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-morena.png" alt="Morena iluminada" loading="lazy" data-full="assets/img/cabelo-morena-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Morena iluminada</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="unhas"><picture><source type="image/webp" srcset="assets/img/unhas-pretas-360.webp 360w, assets/img/unhas-pretas-540.webp 540w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/unhas-pretas.png" alt="Preto stiletto" loading="lazy" data-full="assets/img/unhas-pretas-540.webp" width="540" height="960"></picture><figcaption class="grid__cap">Preto stiletto</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="cabelo"><picture><source type="image/webp" srcset="assets/img/cabelo-loiro-360.webp 360w, assets/img/cabelo-loiro-540.webp 540w, assets/img/cabelo-loiro-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-loiro.png" alt="Loiro pérola" loading="lazy" data-full="assets/img/cabelo-loiro-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Loiro pérola</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="beleza"><picture><source type="image/webp" srcset="assets/img/sobrancelha-360.webp 360w, assets/img/sobrancelha-376.webp 376w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/sobrancelha.png" alt="Sobrancelha alinhada" loading="lazy" data-full="assets/img/sobrancelha-376.webp" width="376" height="187"></picture><figcaption class="grid__cap">Sobrancelha alinhada</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="cabelo"><picture><source type="image/webp" srcset="assets/img/cabelo-mel-360.webp 360w, assets/img/cabelo-mel-540.webp 540w, assets/img/cabelo-mel-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-mel.png" alt="Mel dourado" loading="lazy" data-full="assets/img/cabelo-mel-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Mel dourado</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="unhas"><picture><source type="image/webp" srcset="assets/img/unhas-natural-360.webp 360w, assets/img/unhas-natural-374.webp 374w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/unhas-natural.png" alt="Francesinha natural" loading="lazy" data-full="assets/img/unhas-natural-374.webp" width="374" height="483"></picture><figcaption class="grid__cap">Francesinha natural</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="cabelo"><picture><source type="image/webp" srcset="assets/img/cabelo-camadas-360.webp 360w, assets/img/cabelo-camadas-540.webp 540w, assets/img/cabelo-camadas-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-camadas.png" alt="Camadas em movimento" loading="lazy" data-full="assets/img/cabelo-camadas-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Camadas em movimento</figcaption></figure>
-      <figure class="grid__item reveal" data-cat="cabelo"><picture><source type="image/webp" srcset="assets/img/cabelo-retrato-360.webp 360w, assets/img/cabelo-retrato-540.webp 540w, assets/img/cabelo-retrato-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-retrato.png" alt="Ondas de festa" loading="lazy" data-full="assets/img/cabelo-retrato-640.webp" width="640" height="1138"></picture><figcaption class="grid__cap">Ondas de festa</figcaption></figure>
+      <figure class="gitem tilt" data-cat="cabelo" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/r-ruivo-480.webp 480w, assets/img/r-ruivo-720.webp 720w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/r-ruivo.jpg" alt="Ruivo cobreado ondulado, feito no salão" loading="lazy" data-full="assets/img/r-ruivo-1080.webp" width="1216" height="2160"></picture>
+        <figcaption>Ruivo cobreado</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="unhas" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/r-unhas-coral-420.webp 420w, assets/img/r-unhas-coral-720.webp 720w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/r-unhas-coral.jpg" alt="Unhas amêndoa coral com anéis dourados" loading="lazy" data-full="assets/img/r-unhas-coral-1011.webp" width="1011" height="1011"></picture>
+        <figcaption>Coral amêndoa</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="beleza" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/r-mulher-420.webp 420w, assets/img/r-mulher-640.webp 640w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/r-mulher.jpg" alt="Morena iluminada com make, de frente no salão" loading="lazy" data-full="assets/img/r-mulher-640.webp" width="640" height="853"></picture>
+        <figcaption>Morena iluminada</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="cortes" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/r-corte-480.webp 480w, assets/img/r-corte-720.webp 720w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/r-corte.jpg" alt="Corte curto castanho com brilho, feito no salão" loading="lazy" data-full="assets/img/r-corte-1080.webp" width="1440" height="1440"></picture>
+        <figcaption>Corte curto glossy</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="cortes" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/r-homem-420.webp 420w, assets/img/r-homem-720.webp 720w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/r-homem.jpg" alt="Cliente masculino com cachos e mecha grisalha marcante" loading="lazy" data-full="assets/img/r-homem-720.webp" width="720" height="1280"></picture>
+        <figcaption>Cachos & mecha grisalha</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="unhas" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/r-unhas-french-420.webp 420w, assets/img/r-unhas-french-720.webp 720w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/r-unhas-french.jpg" alt="Francesinha delicada com detalhe em verde" loading="lazy" data-full="assets/img/r-unhas-french-818.webp" width="818" height="1448"></picture>
+        <figcaption>Francesinha de joia</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="cabelo" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/cabelo-loiro-ombre-360.webp 360w, assets/img/cabelo-loiro-ombre-540.webp 540w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/cabelo-loiro-ombre.png" alt="Ombré iluminado" loading="lazy" data-full="assets/img/cabelo-loiro-ombre-640.webp" width="640" height="1138"></picture>
+        <figcaption>Ombré iluminado</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="beleza" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/make-360.webp 360w, assets/img/make-540.webp 540w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/make.png" alt="Referência de maquiagem (imagem ilustrativa)" loading="lazy" data-full="assets/img/make-640.webp" width="640" height="1138"></picture>
+        <figcaption>Maquiagem</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
+      <figure class="gitem tilt" data-cat="beleza" data-reveal>
+        <picture><source type="image/webp" srcset="assets/img/sobrancelha-360.webp 360w, assets/img/sobrancelha-376.webp 376w" sizes="(max-width:520px) 100vw, (max-width:980px) 50vw, 33vw"><img src="assets/img/sobrancelha.png" alt="Referência de design de sobrancelha (imagem ilustrativa)" loading="lazy" data-full="assets/img/sobrancelha-376.webp" width="376" height="187"></picture>
+        <figcaption>Sobrancelhas</figcaption><span class="glare" aria-hidden="true"></span>
+      </figure>
     </div>
   </div>
 </section>
 
-<!-- ===== ESPAÇO ===== -->
-<section class="espaco" aria-labelledby="espaco-h">
-  <div class="espaco__media">
-    <picture><source type="image/webp" srcset="assets/img/espaco-salao-360.webp 360w, assets/img/espaco-salao-540.webp 540w, assets/img/espaco-salao-681.webp 681w" sizes="100vw"><img src="assets/img/espaco-salao.png" alt="Interior do salão Glam-Appetit, pé-direito alto e iluminação arquitetônica" loading="lazy" width="681" height="786"></picture>
-  </div>
-  <div class="espaco__content">
-    <div class="container">
-      <div class="espaco__card reveal">
-        <p class="eyebrow eyebrow--light">O espaço</p>
-        <h2 id="espaco-h">Um salão pra <em>sentar e respirar.</em></h2>
-        <p>Pé-direito alto, luz pensada, dois andares e aquele silêncio bom de lugar bem cuidado. O Glam-Appetit foi desenhado pra que o tempo que você passa aqui seja tão bom quanto o resultado que sai daqui.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== GRUPO VIP ===== -->
-<section class="section section--cream2" id="vip">
-  <div class="container vip">
-    <div class="vip__text">
-      <p class="eyebrow reveal">Comunidade</p>
-      <h2 class="reveal" data-d="1">Tem um lugar reservado <em>pra quem é de casa.</em></h2>
-      <p class="reveal" data-d="2">O Grupo VIP é onde as clientes do Glam ficam por dentro de tudo primeiro: agenda aberta antes de todo mundo, condições especiais e novidades em primeira mão. Beleza com tratamento de membro.</p>
-      <a class="btn reveal" data-d="2" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20entrar%20no%20Grupo%20VIP%20do%20Glam-Appetit." target="_blank" rel="noopener">
-        Entrar no Grupo VIP
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-      </a>
-    </div>
-    <div class="vip__perks reveal" data-d="2">
-      <div class="vip__perk"><span class="n">I</span><div><h3>Agenda antecipada</h3><p>Você escolhe seu horário antes das vagas abrirem pro público.</p></div></div>
-      <div class="vip__perk"><span class="n">II</span><div><h3>Condições de membro</h3><p>Combos e cuidados pensados pra quem mantém a rotina com a gente.</p></div></div>
-      <div class="vip__perk"><span class="n">III</span><div><h3>Primeira fila nas novidades</h3><p>Lançamentos, técnicas e datas especiais chegam primeiro no grupo.</p></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== DEPOIMENTOS ===== -->
-<!-- ⚠️ PLACEHOLDER: substituir pelos depoimentos reais do Google/Instagram antes de publicar -->
-<section class="section" id="depoimentos">
+<!-- ===== DEPOIMENTOS (placeholder honesto — trocar pelos reais) ===== -->
+<!-- ⚠️ PLACEHOLDER: substituir pelos 3 depoimentos reais (nome + contexto) antes de publicar. Não inventar nomes. -->
+<section class="section depo" id="depoimentos">
   <div class="container">
-    <div class="quotes__head reveal">
-      <p class="eyebrow">Na voz de quem senta na cadeira</p>
-      <h2>A gente cuida. Elas voltam.</h2>
-    </div>
+    <header class="depo__head">
+      <h2 class="h-display h-display--light" data-reveal>O que elas dizem ao <em>levantar da cadeira.</em></h2>
+    </header>
     <div class="quotes">
-      <figure class="quote reveal" data-d="1">
-        <span class="mark">“</span>
-        <p>Saí com o ruivo dos sonhos e o cabelo continuou macio, sem aquele ressecamento de sempre. Virei cliente fixa.</p>
-        <footer><span class="av">M</span><span class="meta"><b>Marina R.</b><span>Cliente · Ruivos</span></span></footer>
-        <span class="stars">★★★★★</span>
+      <figure class="quote" data-reveal>
+        <span class="quote__mark" aria-hidden="true">“</span>
+        <blockquote>Frase curta e específica sobre a cor ou o cuidado. Sem elogio genérico.</blockquote>
+        <figcaption><b>[Depoimento real 1]</b><span>Cliente · Ruivo</span></figcaption>
+        <span class="quote__stars" aria-hidden="true">★★★★★</span>
       </figure>
-      <figure class="quote reveal" data-d="2">
-        <span class="mark">“</span>
-        <p>Atendimento de outro nível. Te chamam pelo nome, entendem o que você quer e o ambiente é lindo. Me senti em casa.</p>
-        <footer><span class="av">C</span><span class="meta"><b>Carla M.</b><span>Cliente · Mechas</span></span></footer>
-        <span class="stars">★★★★★</span>
+      <figure class="quote" data-reveal>
+        <span class="quote__mark" aria-hidden="true">“</span>
+        <blockquote>Priorizar quem cita o ruivo sem descoloração ou o fio preservado.</blockquote>
+        <figcaption><b>[Depoimento real 2]</b><span>Cliente · Mechas</span></figcaption>
+        <span class="quote__stars" aria-hidden="true">★★★★★</span>
       </figure>
-      <figure class="quote reveal" data-d="3">
-        <span class="mark">“</span>
-        <p>Fiz cabelo, sobrancelha e unha no mesmo dia, tudo impecável. Saí pronta pro evento e cheia de elogios.</p>
-        <footer><span class="av">J</span><span class="meta"><b>Juliana S.</b><span>Cliente · Combo</span></span></footer>
-        <span class="stars">★★★★★</span>
+      <figure class="quote" data-reveal>
+        <span class="quote__mark" aria-hidden="true">“</span>
+        <blockquote>Priorizar semelhança com a leitora (mesma dor/desejo).</blockquote>
+        <figcaption><b>[Depoimento real 3]</b><span>Cliente · Combo</span></figcaption>
+        <span class="quote__stars" aria-hidden="true">★★★★★</span>
       </figure>
     </div>
+    <p class="depo__seal" data-reveal>Enquanto isso, o trabalho está todo lá: <a href="https://instagram.com/glam_byhugoantunnes" target="_blank" rel="noopener">@glam_byhugoantunnes · +22 mil</a></p>
   </div>
 </section>
 
-<!-- ===== VISITA ===== -->
-<section class="section section--wine" id="visita">
-  <div class="container visit">
-    <div class="visit__info">
-      <p class="eyebrow eyebrow--light reveal">Venha nos ver</p>
-      <h2 class="reveal" data-d="1">Belo Horizonte. <em>De terça a sábado.</em></h2>
-
-      <div class="row reveal" data-d="1">
-        <div class="k">Endereço</div>
-        <div class="v">Belo Horizonte — MG<small>Endereço completo a confirmar</small></div>
-      </div>
-      <div class="row reveal" data-d="2">
-        <div class="k">Horário</div>
-        <div class="v">Terça a sábado, a partir das 10h<small>Horário de fechamento a confirmar · Domingo e segunda fechado</small></div>
-      </div>
-      <div class="row reveal" data-d="3">
-        <div class="k">Agende por</div>
-        <div class="v">WhatsApp ou Instagram<small>Resposta rápida em horário comercial</small></div>
-      </div>
-
-      <div class="visit__cta reveal" data-d="3">
-        <a class="btn btn--light" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener">WhatsApp</a>
-        <a class="btn btn--outline-light" href="https://instagram.com/glam_byhugoantunnes" target="_blank" rel="noopener">@glam_byhugoantunnes</a>
-      </div>
-    </div>
-
-    <div class="visit__aside reveal" data-d="2">
-      <picture><source type="image/webp" srcset="assets/img/cabelo-retrato-360.webp 360w, assets/img/cabelo-retrato-540.webp 540w, assets/img/cabelo-retrato-640.webp 640w" sizes="(max-width:980px) 100vw, 40vw"><img src="assets/img/cabelo-retrato.png" alt="Cliente com ondas e balayage Glam-Appetit" loading="lazy" width="640" height="1138"></picture>
-      <div class="tagsign">
-        <b>Glam by Hugo Antunnes</b>
-        <span>Salão Boutique</span>
-      </div>
-    </div>
+<!-- ===== SOBRE / QUEM ASSINA ===== -->
+<section class="section sobre" id="sobre">
+  <div class="container sobre__wrap">
+    <h2 class="h-brand sobre__name" data-reveal>Hugo Antunnes <em>na sua cor.</em></h2>
+    <p class="lead" data-reveal>A mão por trás do ruivo que virou marca.</p>
+    <p class="prose prose--wide" data-reveal>O Glam-Appetit é a casa de Hugo Antunnes, e são mais de 22 mil pessoas acompanhando o trabalho no Instagram. Cada cor que sai daqui passa pelo mesmo olhar autoral — o mesmo que fez do ruivo sem descoloração a assinatura da casa.</p>
+    <a class="link-cta" href="https://instagram.com/glam_byhugoantunnes" target="_blank" rel="noopener" data-reveal>Ver no Instagram <span aria-hidden="true">→</span></a>
   </div>
 </section>
 
-<!-- ===== CTA FINAL ===== -->
-<section class="section finalcta">
-  <div class="container">
-    <svg class="gem reveal" viewBox="0 0 120 132" aria-hidden="true"><use href="#gem"/></svg>
-    <h2 class="reveal" data-d="1">Sua próxima versão favorita começa com <em>um horário.</em></h2>
-    <p class="reveal" data-d="2">Chama no WhatsApp e a gente acha o melhor dia pra você.</p>
-    <a class="btn btn--light reveal" data-d="2" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener">
-      Agendar agora
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-    </a>
+<!-- ===== AGENDAMENTO / VISITA ===== -->
+<section class="section agendar" id="agendar">
+  <div class="container agendar__grid">
+    <div class="agendar__info">
+      <p class="eyebrow eyebrow--light" data-reveal>Vem marcar</p>
+      <h2 class="h-display h-display--light" data-reveal>Seu horário começa com <em>uma mensagem.</em></h2>
+      <p class="lead lead--light" data-reveal>Ruivo intenso, fio preservado — e tudo mais no mesmo lugar.</p>
+      <p class="prose prose--light" data-reveal>Clique no botão, o WhatsApp abre com a conversa pronta. Conte o que você quer fazer e mande uma foto do seu cabelo hoje, se puder. A gente responde com o melhor horário e tira suas dúvidas antes de você vir.</p>
+
+      <dl class="facts" data-reveal>
+        <div class="fact"><dt>Endereço</dt><dd>Belo Horizonte — MG<small>Endereço completo + CEP a confirmar</small></dd></div>
+        <div class="fact"><dt>Horário</dt><dd>Terça a sábado, das 10h às <span class="pend">[fechamento a confirmar]</span><small>Domingo e segunda fechado</small></dd></div>
+        <div class="fact"><dt>WhatsApp</dt><dd>Resposta rápida em horário comercial<small>Número a confirmar</small></dd></div>
+      </dl>
+
+      <div class="agendar__cta" data-reveal>
+        <a class="btn btn--solid magnet starborder" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener" data-cursor="cta">
+          Agendar no WhatsApp
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn--outlight" href="https://instagram.com/glam_byhugoantunnes" target="_blank" rel="noopener">Ver no Instagram</a>
+      </div>
+    </div>
+    <aside class="agendar__mark" aria-hidden="true">
+      <svg class="gem gem--xl" viewBox="0 0 120 132"><use href="#gem"/></svg>
+    </aside>
   </div>
 </section>
+
+</main>
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
   <div class="container">
+    <div class="footer__wordmark" aria-hidden="true">
+      <svg class="gem" viewBox="0 0 120 132"><use href="#gem"/></svg>
+      <span class="shine">GLAM-APPETIT</span>
+    </div>
     <div class="footer__grid">
-      <div class="footer__brand">
-        <svg class="gem" viewBox="0 0 120 132" aria-hidden="true"><use href="#gem"/></svg>
-        <div class="wm">Glam-Appetit</div>
-        <div class="bq">Salão Boutique</div>
-        <p>Beleza autoral em Belo Horizonte. Referência em ruivos sem descoloração, mechas e balayage — com cabelo, make, unhas e sobrancelhas sob o mesmo teto.</p>
+      <div class="footer__col footer__about">
+        <p class="footer__tag">Coloração autoral em Belo Horizonte.</p>
+        <p>Siga <a href="https://instagram.com/glam_byhugoantunnes" target="_blank" rel="noopener">@glam_byhugoantunnes</a> para ver o trabalho todo dia. Já é cliente? Deixe sua avaliação no Google e ajude outra pessoa a encontrar a casa.</p>
       </div>
       <div class="footer__col">
-        <h4>Navegar</h4>
-        <a href="#casa">A Casa</a>
-        <a href="#cores">Carta de Cores</a>
+        <h3>Navegar</h3>
+        <a href="#assinatura">A assinatura</a>
         <a href="#servicos">Serviços</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#visita">Visita</a>
+        <a href="#espaco">O espaço</a>
+        <a href="#galeria">Portfólio</a>
+        <a href="#agendar">Contato</a>
       </div>
       <div class="footer__col">
-        <h4>Contato</h4>
+        <h3>Contato</h3>
         <a href="https://wa.me/55XXXXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
         <a href="https://instagram.com/glam_byhugoantunnes" target="_blank" rel="noopener">Instagram</a>
-        <p>Terça a sábado · a partir das 10h</p>
+        <p>Ter–Sáb · a partir das 10h</p>
         <p>Belo Horizonte — MG</p>
       </div>
     </div>
     <div class="footer__bottom">
-      <span>© <span id="year">2025</span> Glam-Appetit · Salão Boutique. Todos os direitos reservados.</span>
-      <span>Feito com cuidado · <a href="#top">voltar ao topo</a></span>
+      <span>© <span id="year">2026</span> Glam-Appetit · Salão Boutique.</span>
+      <span>Assinatura de Hugo Antunnes · <a href="#topo">voltar ao topo</a></span>
     </div>
   </div>
 </footer>
 
+<!-- ===== FAB WhatsApp (mobile) ===== -->
+<a class="fab" href="https://wa.me/55XXXXXXXXXXX?text=Ol%C3%A1!%20Quero%20agendar%20um%20hor%C3%A1rio%20no%20Glam-Appetit." target="_blank" rel="noopener" aria-label="Agendar no WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.6 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7.7.7-3.6-.2-.4c-1-1.6-1.5-3.4-1.5-5.3 0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.4 9.8-9.8 9.8zm5.4-7.3c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.5-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.5.8.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
 <!-- ===== LIGHTBOX ===== -->
-<div class="lightbox" id="lightbox" aria-hidden="true">
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" aria-hidden="true">
   <button class="lightbox__close" id="lbClose" aria-label="Fechar">×</button>
   <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Anterior">‹</button>
-  <img src="" alt="" id="lbImg">
+  <img alt="" id="lbImg">
   <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Próxima">›</button>
 </div>
 

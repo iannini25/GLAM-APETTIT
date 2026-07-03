@@ -1,0 +1,27 @@
+# Ferramentaria do estudio (tooling) - nao faz parte do site publicado
+/.claude/
+/vendor/
+/_ref/
+/fonts-woff2/
+/bauer-bodoni-condensed-bold/
+/bauer-bodoni-condensed-bold.zip
+
+# Imagens de origem (brutas) - versoes otimizadas ficam em assets/img/
+/cabelocurto
+/cabelol ruivo
+/cablo homem
+/foto mulher
+/foto unhas
+/fotoarrumandocabelo
+/fotoestabelecimento
+/kerastaseprodutros
+/unhas.jpg
+/hairdresser-washing-woman-s-hair.jpg
+/woman-getting-treatment-hairdresser-shop.jpg
+
+# Temporarios / ambiente
+/scratchpad/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
